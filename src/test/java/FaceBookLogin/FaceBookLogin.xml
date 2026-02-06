@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample">
+    <test name="Sample">
+        <!--        Test name can be used from JIRA/Zephyr-->
+        <classes>
+            <class name="FaceBookLogin">
+
+                <methods>
+
+                    <!--                    <include name="a"/>-->
+                    <!--                    <include name="c"/>-->
+                    <exclude name="b"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
